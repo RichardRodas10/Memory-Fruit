@@ -283,7 +283,7 @@ h2 {
     #levelDisplay,
     .info span,
     .victory-text {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
     }
 
     .button-container button {
@@ -295,6 +295,10 @@ h2 {
     }
     .container {
         padding: 20px 30px;
+        width: 98%;
+    }
+    .container h2, .end-screen h2{
+        font-size: 2em;
     }
 }
 @media (max-width: 360px) {
@@ -311,7 +315,7 @@ h2 {
     }
 
     .victory-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .button-container button {
